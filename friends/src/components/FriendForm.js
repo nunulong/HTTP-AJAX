@@ -72,7 +72,8 @@ class FriendForm extends Component {
 
   render() {
     return (
-      <div>
+      <div className="FriendForm">
+        <h2>Friend Menu</h2>
         <form onSubmit={this.handleSubmit}>
           <input
             type="text"
@@ -106,12 +107,6 @@ class FriendForm extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
-  return {
-      friends: state.friends
-  };
-};
-
-export default connect(mapStateToProps, { addFriend, updateFriend })(
+export default connect(null, { addFriend, updateFriend })(
   FriendForm
 );

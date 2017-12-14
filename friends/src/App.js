@@ -7,6 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <h1>Ting's Friend List</h1>
         <FriendForm />
         <FriendList />
       </div>

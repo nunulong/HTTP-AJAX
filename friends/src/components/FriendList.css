@@ -12,3 +12,10 @@
   height: auto;
   border: 1px solid #999;
 }
+
+.FriendForm {
+  border: 1px solid #999;
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+}
